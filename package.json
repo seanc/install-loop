@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "files": [
-    "LICENSE"
+    "index.js"
   ],
   "engines": {
     "node": ">=0.10.0"
