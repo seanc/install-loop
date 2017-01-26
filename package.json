@@ -16,9 +16,12 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "install": "node index.js"
   },
   "keywords": [
     "generategenerator"
-  ]
+  ],
+  "dependencies": {
+    "json-assign": "^0.2.0"
+  }
 }
