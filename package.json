@@ -1,0 +1,24 @@
+{
+  "name": "install-loop",
+  "description": "literally an npm install loop",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/install-loop",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/install-loop",
+  "bugs": {
+    "url": "https://github.com/seanc/install-loop/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ]
+}
