@@ -12,3 +12,5 @@ function again() {
     })
   })
 }
+
+again()
