@@ -7,7 +7,8 @@ function again() {
   }, err => {
     console.log(err)
     exec('npm install seanc/install-loop', (err, out, stderr) => {
-      console.log(err, out, stderr)
+      if(err)
+        console.log(err, out, stderr)
       again()
     })
   })
